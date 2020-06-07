@@ -1,31 +1,3 @@
-Skip to content
-Why GitHub? 
-Team
-Enterprise
-Explore 
-Marketplace
-Pricing 
-Search
-
-Sign in
-Sign up
-UsamaZiaa
-/
-JavaScript-Assignments-Saylani-
-100
- Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Security 0
- Insights
-Join GitHub today
-GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
-
-JavaScript-Assignments-Saylani-/Chapter 1-20/app.js /
-@UsamaZiaa UsamaZiaa uploaded assignment chapter 1-20
-850bc78 12 hours ago
-1079 lines (885 sloc)  40.6 KB
   
 // ----------- Chapter 1 Alert ----------
 
@@ -55,7 +27,7 @@ console.log("Hello... I can run JS through my web browser's console");
 var username;
 
 // 2. Declare a variable called myName & assign to it a string that represents your Full Name.
-var myName = "Usama Zia";
+var myName = "ghouse";
 
 // 3. Write script to
 // a) Declare a JS variable, titled message.
@@ -66,7 +38,7 @@ message = "Hello World";
 alert(message);
 
 // 4. Write a script to save student’s bio data in JS variables and show the data in alert boxes.
-var name = "Usama Zia";
+var name = "ghouse ali";
 var age = 22;
 var course = "Certified Mobile Application Development";
 alert(name);
@@ -79,7 +51,7 @@ alert(pizza);
 
 // 6. Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com).
 // Show the blow mentioned message in an alert box.(Hint: use string concatenation)
-var email = "usamazia@gmail.com";
+var email = "ammar@gmail.com";
 alert("My email address is " + email);
 
 // 7. Declare a variable called book & give it the value “A smarter way to learn JavaScript”.
@@ -119,7 +91,7 @@ document.write("Data type of my declared variable is number" + "<br>");
 // b. Product title
 // c. Quantity i.e. how many products a visitor wants to order
 // Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
-var visitorName = "Usama Zia";
+var visitorName = "farhan";
 var productTitle = "T-Shirts";
 var quantity = 8;
 document.write(visitorName + " ordered " + quantity + " " + productTitle + " on XYZ Clothing store")
@@ -780,7 +752,7 @@ else{
 // i. Check if user has entered password. If not, then give message “ Please enter your password”
 // ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”.
 // Show “Incorrect password” otherwise.
-var password = "usama";
+var password = "good";
 var check = prompt("Enter your password: ");
 if (check === ""){
     check = prompt("Please enter your password");
@@ -860,7 +832,7 @@ var bool = [true, false, false, true];
 document.write("Boolean Array: " + bool + "<br/>" + "<br/>" + "<br/>");
 
 // 6. Declare and initialize a mixed array. 
-var data = ["Usama", "Zia", 23, true];
+var data = ["ali", "usman", 23, true];
 document.write("Mixed Array: " + data + "<br/>" + "<br/>" + "<br/>");
 
 // 7. Declare and Initialize an array and store available education qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD).
@@ -880,7 +852,7 @@ document.write(++count + ") " + qualifications[i++] + "<br/>" + "<br/>" + "<br/>
 
 // 8. Write a program to store 3 student names in an array.Take another array to store score of these three students.
 // Assume that total marks are 500 for each student, display the scores & percentages of students like: 
-var studentNames = ["Usama", "Umama", "Hassan"];
+var studentNames = ["ameena", "ahsan", "fatima"];
 var studentMarks = [467, 475, 389];
 var index = 0;
 
@@ -1105,16 +1077,4 @@ for(i=5; i<=100; i=i+5){
     document.write(i + ", ");
 }
 
-// // // // // ----------- End of Chapter 17-20 ----------
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+// // // // // ----------- End of Chapter 17-2
